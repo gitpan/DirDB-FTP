@@ -43,7 +43,8 @@ ok("fi fo","@{[delete( @dcty{2,3})]}");
 # print "fee fum five? ", (grep {defined $_} @dcty{1..5}),"\n";
 ok( "fee fum five", "@{[grep {defined $_} @dcty{1..5}]}");
 
-my $$x = "reference test\n";
+# my $$x = "reference test\n";
+my $x = \"reference test\n";
 # print $$x;
 eval { $dcty{reftest} = $x };
 ok($@);

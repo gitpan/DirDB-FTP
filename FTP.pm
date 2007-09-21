@@ -10,7 +10,7 @@ use Net::FTP::blat;
 
 use vars '$VERSION';
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 sub new{
 # DirDB::FTP -> new ( $hostname, $user, $pass );
